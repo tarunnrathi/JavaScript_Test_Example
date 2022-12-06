@@ -1,0 +1,16 @@
+/home/tarun/Desktop/Test/C#/app/bin/Debug/net5.0/app
+/home/tarun/Desktop/Test/C#/app/bin/Debug/net5.0/app.deps.json
+/home/tarun/Desktop/Test/C#/app/bin/Debug/net5.0/app.runtimeconfig.json
+/home/tarun/Desktop/Test/C#/app/bin/Debug/net5.0/app.runtimeconfig.dev.json
+/home/tarun/Desktop/Test/C#/app/bin/Debug/net5.0/app.dll
+/home/tarun/Desktop/Test/C#/app/bin/Debug/net5.0/ref/app.dll
+/home/tarun/Desktop/Test/C#/app/bin/Debug/net5.0/app.pdb
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.csproj.AssemblyReference.cache
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.AssemblyInfoInputs.cache
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.AssemblyInfo.cs
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.csproj.CoreCompileInputs.cache
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.dll
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/ref/app.dll
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.pdb
+/home/tarun/Desktop/Test/C#/app/obj/Debug/net5.0/app.genruntimeconfig.cache
