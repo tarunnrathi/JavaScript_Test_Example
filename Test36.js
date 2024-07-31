@@ -53,7 +53,7 @@ const items = [
   }
 
 
-  //console.log(fun(items))
+  console.log(fun(items))
 //senthil@cubera.co
 //   let a = '1234567890/5';
 //   let b = '7898-7*67/3';
@@ -87,14 +87,15 @@ const items = [
 // }
 // console.log("result = ",calc(a));
 
-let a ="brand"
-let b = "flavors";
-console.log(a.length);
-console.log(a.charAt(a.length-1));
-console.log(b.includes("s",b.length-1));
-if(b.includes("s",b.length-1)){
-  console.log(b.slice(0,-1))
-}
+// let a ="brand"
+// let b = "flavors";
+// console.log(a.length);
+// console.log(a.charAt(a.length-1));
+// console.log(b.includes("s",b.length-1));
+// if(b.includes("s",b.length-1)){
+//   console.log(b.slice(0,-1))
+// }
+
 
 
 

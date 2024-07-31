@@ -34,6 +34,7 @@
     },
     perimeter:()=>{
         let d = this.f;
+        let e = this.f*3.14*2;
         return this.f*3.14*2;
     }
   }

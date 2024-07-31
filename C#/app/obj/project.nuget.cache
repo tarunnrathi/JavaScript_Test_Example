@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7muphJYIVyuZ8JKMCzr21HXz+iK7vau6jCx3jKO+BziH31jkErnCf2u4W+1FxyWLvl/GQLLwAtN7QmqyjO6/fA==",
+  "dgSpecHash": "ZUsqQcifvTs=",
   "success": true,
-  "projectFilePath": "/home/tarun/Desktop/Test/C#/app/app.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/tarunrathi/Documents/My project/JavaScript_Test_Example/C#/app/app.csproj",
+  "expectedPackageFiles": [
+    "/Users/tarunrathi/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/tarunrathi/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/tarunrathi/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

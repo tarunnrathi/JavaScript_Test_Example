@@ -6,3 +6,7 @@ let b = Object.create({
 })
 //delete b.x;
 console.log( delete b.x);
+console.log(  b.x);
+console.log(  b);
+
+

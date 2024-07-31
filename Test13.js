@@ -22,12 +22,15 @@
 
 //------------------------------------------------------------------
 
-// let arr = [1,1,1];
-// let arr2 = arr;
-// let arr3 = [...arr2];
+let arr = [1,1,1];
+let arr2 = arr;
+let arr3 = [...arr2];
 
-// console.log(arr2===arr);
-// console.log(arr2===arr3);
+console.log(arr2===arr);
+console.log(arr2===arr3);
+
+console.log("arr2",arr2);
+console.log("arr3",arr3);
 
 // arr2.push(9);
 // console.log(arr2);
@@ -40,18 +43,18 @@
 
 
 //-------------------------------------
-// let a =  {k:{k:{k:{k:{k:3}}}}};
-// function fun(param){
-//     if(typeof param!=="number"){
-//         let x = Object.keys(param);
-//         console.log("x=",x);
-//         console.log("param[x]=",param[x]);
-//         fun(param[x]);
-//     }else{
-//         console.log(param);
-//     }
-// }
-// fun(a);
+let a =  {k:{k:{k:{k:{k:3}}}}};
+function fun(param){
+    if(typeof param!=="number"){
+        let x = Object.keys(param);
+        console.log("x=",x);
+        console.log("param[x]=",param[x]);
+        fun(param[x]);
+    }else{
+        console.log(param);
+    }
+}
+fun(a);
 
 //------------------------------------------
 // let data = [10, 20, "30", 1, 5, 'JavaScript filter', undefined, 'example'];
@@ -76,10 +79,10 @@
 // console.log(2%2);
 
 
-// var [c, ...m] = [1,2,3,4,5];
+var [c, ...m] = [1,2,3,4,5];
 
-// console.log(c);
-// console.log(m);
+console.log(c);
+console.log(m);
 //-----------------------------------
 var array=[1,2,3,4,5];
 console.log(array.slice(2));

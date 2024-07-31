@@ -50,4 +50,4 @@ console.log(binomial(11));
 //     }
 //     return mainExpression;
 // }
-// console.log(binomial(15));
+ console.log(binomial(15));
