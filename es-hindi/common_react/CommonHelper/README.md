@@ -1,0 +1,1 @@
+Common helper will have all the code which used to render SSR pages. It helps in return SSR properties like seo meta tags and other page data.

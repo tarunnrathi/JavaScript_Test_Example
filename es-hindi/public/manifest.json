@@ -1,0 +1,70 @@
+{
+	"lang": "hi",
+	"name": "News18 हिंदी",
+	"short_name": "News18 हिंदी",
+	"description": "News18 हिंदी Latest News",
+	"icons": [
+		{
+			"src": "/images/icons/news18_hindi_72x72_v1.png",
+			"sizes": "72x72",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/news18_hindi_96x96_v1.png",
+			"sizes": "96x96",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/news18_hindi_128x128_v1.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/news18_hindi_144x144_v1.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/news18_hindi_152x152_v1.png",
+			"sizes": "152x152",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/news18_hindi_192x192_v1.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/news18_hindi_384x384_v1.png",
+			"sizes": "384x384",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/icons/news18_hindi_512x512_v1.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	],
+	"gcm_sender_id": "940176031667",
+	"background_color": "#001636",
+	"theme_color": "#001636",
+	"start_url": "/",
+	"id": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"prefer_related_applications": false,
+	"related_applications": [
+		{
+			"platform": "play",
+			"id": "com.divum.ibn",
+			"url": "https://play.google.com/store/apps/details?id=com.divum.ibn"
+		},
+		{
+			"platform": "itunes",
+			"url": "https://itunes.apple.com/app/id395194912",
+			"id": "395194912"
+		}
+	],
+	"scope": "/"
+}

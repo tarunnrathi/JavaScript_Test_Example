@@ -1,0 +1,85 @@
+{
+  "name": "news18-hindi",
+  "version": "1.0.0",
+  "description": "Next.js project powering https://hindi.news18.com/",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development next dev -p 3050",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production NODE_OPTIONS=\"-r @newrelic/next\" next start -p 3050",
+    "export": "next export",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build",
+    "analyze:source": "source-map-explorer .next/static/**/*.js",
+    "lint": "next lint",
+    "lint-fix": "next lint --fix",
+    "prepare": "husky install",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "debug": "next dev -p 3050"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "3.6.0",
+    "@newrelic/next": "0.8.0",
+    "@next/bundle-analyzer": "13.4.7",
+    "agentkeepalive": "4.3.0",
+    "cheerio": "1.0.0-rc.12",
+    "cross-env": "7.0.3",
+    "dateformat": "5.0.3",
+    "dnscache": "1.0.2",
+    "html-entities": "^2.5.2",
+    "html-react-parser": "4.0.0",
+    "jwt-decode": "4.0.0",
+    "lazysizes": "5.3.2",
+    "moment": "2.29.4",
+    "moment-timezone": "0.5.43",
+    "moment-timezone-data-webpack-plugin": "1.5.1",
+    "newrelic": "11.13.0",
+    "next": "13.4.4",
+    "next-pwa": "5.6.0",
+    "next-routes": "1.4.2",
+    "next-seo": "6.1.0",
+    "node-cache": "5.1.2",
+    "node-cron": "3.0.2",
+    "react": "18.2.0",
+    "react-dfp": "0.21.0",
+    "react-dom": "18.2.0",
+    "react-ga": "3.3.1",
+    "react-html-parser": "2.0.2",
+    "react-intersection-observer": "9.5.1",
+    "react-lazyload": "3.2.0",
+    "react-loader-spinner": "4.0.0",
+    "react-loading-skeleton": "3.3.1",
+    "react-slick": "0.29.0",
+    "react-waypoint": "10.3.0",
+    "recharts": "2.7.2",
+    "slick-carousel": "1.8.1",
+    "swiper": "9.4.1",
+    "webpack": "5.88.0",
+    "winston": "3.12.0",
+    "winston-daily-rotate-file": "5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "eslint-config-prettier": "8.8.0",
+    "husky": "8.0.3",
+    "prettier": "3.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
