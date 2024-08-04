@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
-  <g id="camera" transform="translate(-1 -4)">
-    <rect id="Rectangle_12" data-name="Rectangle 12" width="11" height="11" transform="translate(5.026 8.021)" fill="#fff"/>
-    <path id="Path_3" data-name="Path 3" d="M19,6.667H16.08l-.78-1.56A2,2,0,0,0,13.507,4H8.493A2,2,0,0,0,6.7,5.107l-.78,1.56H3a2,2,0,0,0-2,2V18a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2V8.667a2,2,0,0,0-2-2ZM11,17.333a4.667,4.667,0,1,1,4.667-4.667A4.667,4.667,0,0,1,11,17.333Z" transform="translate(0 0)" fill="#e1261d"/>
-    <circle id="Ellipse_1" data-name="Ellipse 1" cx="2.75" cy="2.75" r="2.75" transform="translate(8.026 10.021)" fill="#e1261d"/>
-  </g>
-</svg>

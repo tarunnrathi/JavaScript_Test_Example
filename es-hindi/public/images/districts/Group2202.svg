@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
-  <g id="Group_2202" data-name="Group 2202" transform="translate(-491 -840)">
-    <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(491 840)" fill="#e7412b" stroke="#fff" stroke-width="2">
-      <circle cx="17.5" cy="17.5" r="17.5" stroke="none"/>
-      <circle cx="17.5" cy="17.5" r="16.5" fill="none"/>
-    </g>
-    <path id="Play" d="M7.652,0,15.3,12.7H0Z" transform="translate(516.918 850.111) rotate(90)" fill="#fff"/>
-  </g>
-</svg>
